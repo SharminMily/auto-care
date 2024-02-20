@@ -6,10 +6,10 @@ const Toptier = () => {
                 <div>
                     <img src="https://i.ibb.co/4R9PG0P/IMG-20240220-161159.jpg" alt="" />
                 </div>
-                <div>
-                    <h1 className="font-bold text-2xl text-red-600">Top-tier Luxury Cars for Maximum Satisfaction</h1>
+                <div className="">
+                    <h1 className="font-semibold text-3xl text-red-600 py-4">Top-tier Luxury Cars for Maximum Satisfaction</h1>
                     <p>Investing in a yacht can be a dream come true, but it's essential to thoroughly research and plan to make an informed decision that aligns with your goals and financial capabilities. Consulting with experts in yacht ownership, such as yacht brokers.</p>
-                    <button className="btn mt-2 btn-outline btn-error">View More</button>
+                    <button className="btn mt-4 btn-outline btn-error">View More</button>
                 </div>
             </div>
         </div>
