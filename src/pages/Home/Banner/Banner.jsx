@@ -2,7 +2,7 @@
 const Banner = () => {
     return (
         <div className="md:mb-40 mb-56">
-            <div className=" relative">
+            <div className=" relative  w-full">
                 <img className="w-full" src="https://i.ibb.co/gV5ZM5t/IMG-20240220-163605.jpg" alt="" />
             </div>
 

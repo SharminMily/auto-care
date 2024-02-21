@@ -2,12 +2,12 @@
 const Transfer = () => {
     return (
         <div>
-            <div>
+            <div className="my-10">
                 <div>
-                    <div className="hero min-h-[150px]" style={{ backgroundImage: 'url(https://i.ibb.co/nj4Brn9/IMG-20240220-154722.jpg?fbclid=IwAR2JhVHaSIb9nhuUDyz3M47TLQO8d_QIzBpCDLWDdaYtH-mFY2AoCiTFGyM)' }}>
+                    <div className="hero min-h-[150px]" style={{ backgroundImage: 'url(https://i.ibb.co/9pgzXrF/IMG-20240221-112455.jpg?fbclid=IwAR0zxoZShsIOkysbQB2qYI25M5BcyV5X-8tAh7Tp7ZGYMbVVA8Bjp3n1Sto)' }}>
                         <div className="hero-overlay bg-opacity-60"></div>
                         <div className="hero-content text-center text-neutral-content">
-                            <div className="max-w-md">
+                            <div className="max-w-sm md:max-w-2xl">
 
                                 {/* <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
                                 <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p> */}
@@ -20,7 +20,7 @@ const Transfer = () => {
                                         </div>
                                         <div className="absolute flex justify-between  transform -translate-y-1/2 left-5 right-5 top-1/2">
                                             <a href="#slide4" className="btn btn-circle">❮</a>
-                                            <a href="#slide2" className="btn btn-circle">❯</a>
+                                            <a href="#slide2" className="btn btn-circle ">❯</a>
                                         </div>
                                     </div>
                                     <div id="slide2" className="carousel-item relative w-full">
