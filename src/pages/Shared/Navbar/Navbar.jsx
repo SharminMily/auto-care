@@ -7,13 +7,16 @@ const Navbar = () => {
         <li><NavLink to='/' >
             <ButtonStyle name="Home"></ButtonStyle>
         </NavLink></li>
-        <li><NavLink to='' >
+        <li><NavLink to='product' >
             <ButtonStyle name="Product"></ButtonStyle>
+        </NavLink></li>
+        <li><NavLink to='myCart' >
+            <ButtonStyle name="My Cart"></ButtonStyle>
         </NavLink></li>
     </>
 
     return (
-        <div className="navbar h-[13vh] fixed z-10 bg-opacity-30 bg-black max-w-screen-xl text-white">
+        <div className="navbar h-[13vh] w-full fixed z-10 bg-opacity-30 bg-black max-w-screen-xl text-white">
             <div className="drawer">
                 <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content flex flex-col">

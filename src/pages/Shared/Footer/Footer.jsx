@@ -25,7 +25,7 @@ const Footer = () => {
                     <a className="link link-hover">Cookie policy</a>
                 </nav>
             </footer> */}
-            <footer className="footer p-10 bg-neutral  text-white">
+            <footer className="footer p-10 bg-black  text-white">
                 <aside>
                     <img className="w-20" src="https://i.ibb.co/M1C0Mmx/IMG-20240220-155447-removebg-preview.png" alt="" />
                     <p>AUto Care limited<br />Providing reliable tech since 1990</p>
@@ -51,7 +51,7 @@ const Footer = () => {
                     <a className="link link-hover">Cookie policy</a>
                 </nav>
             </footer>
-            <footer className="footer items-center p-4 bg-neutral text-neutral-content">
+            <footer className="footer border-t border-gray-400 items-center p-4 bg-black text-neutral-content">
                 <aside className="items-center grid-flow-col">
                   
                     <p>Copyright © 2024 - All right reserved</p>
