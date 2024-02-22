@@ -46,7 +46,7 @@ const LuxuryCar = () => {
                     </div>
                 </div>
 
-                <div className="card  bg-base-100 shadow-xl">
+                {/* <div className="card  bg-base-100 shadow-xl">
                     <figure><img className="h-80" src="https://i.ibb.co/N6jbBrK/IMG-20240221-115741.jpg" alt="Shoes" /></figure>
                     <div className="card-body pb-4">
                         <h2 className="card-title">
@@ -128,9 +128,9 @@ const LuxuryCar = () => {
                             <div className="badge border-2 border-red-500 p-3 bg-red-500 text-white hover:badge-outline ">Speed</div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="card bg-base-100 shadow-xl">
+                {/* <div className="card bg-base-100 shadow-xl">
                     <figure><img className="h-80" src="https://i.ibb.co/S731V7g/IMG-20240221-115705.jpg" alt="Shoes" /></figure>
                     <div className="card-body pb-4">
                         <h2 className="card-title">
@@ -170,7 +170,7 @@ const LuxuryCar = () => {
                             <div className="badge border-2 border-red-500 p-3 bg-red-500 text-white hover:badge-outline ">Speed</div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
             </div>

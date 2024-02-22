@@ -3,7 +3,7 @@
 const Experiences = () => {
     return (
         <div className="md:m-20 m-8">
-            <div className="md:flex justify-evenly">
+            <div className="lg:flex justify-evenly">
                 <div className="">
                     <img className="w-full h-full" src="https://i.ibb.co/q13Xmkq/IMG-20240220-160200.jpg" alt="" />
                 </div>

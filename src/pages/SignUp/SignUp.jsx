@@ -1,10 +1,16 @@
 import { useContext } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const SignUp = () => {
 
-    const { createUser } = useContext(AuthContext);
+    const { createUser, updateUserProfile } = useContext(AuthContext);
+
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const from = location.state?.from?.pathname || "/";
 
     const handleSignUp = e => {
         e.preventDefault();
@@ -12,16 +18,30 @@ const SignUp = () => {
         const name = form.name.value;
         const email = form.email.value;
         const password = form.password.value;
-        console.log(name, email, password);
+        const img = from.img;
+        console.log(name, email, password, img);
 
         createUser(email, password)
             .then(res => {
                 console.log(res.user)
             })
+        updateUserProfile(from.name, from.photoURL)
+        .then(() => {
+            console.log('user profile info updated')
+        })
             .catch(error => {
 
                 console.log(error)
             })
+        Swal.fire({
+            position: "top-center",
+            icon: "success",
+            title: "sign up successfully",
+            showConfirmButton: false,
+            timer: 1500
+        });
+        navigate(from, { replace: true });
+
     }
 
 
@@ -64,6 +84,15 @@ const SignUp = () => {
                                     <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                                 </label>
                             </div>
+
+                            <div className="form-control">
+                                <label className="input input-bordered flex items-center gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM12.735 14c.618 0 1.093-.561.872-1.139a6.002 6.002 0 0 0-11.215 0c-.22.578.254 1.139.872 1.139h9.47Z" /></svg>
+                                    <input type="text" name="img" className="grow" placeholder="Photo URL" required />
+                                </label>
+
+                            </div>
+
 
                             <div className="form-control mt-6">
                                 <button className="text-white bg-gradient-to-br from-black via-red-500 to-black

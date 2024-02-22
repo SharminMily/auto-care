@@ -1,0 +1,183 @@
+
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/QMrXzx1/IMG-20240221-115827.jpg",
+      "car_name": "BMW 3 Series",
+      "price": 45000,
+      "details": "The BMW 3 Series is a premium compact sedan offering a blend of performance, luxury, and advanced technology.",
+      "rating": 4.8,
+      "speed": "155 mph"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/8bWKg2T/IMG-20240221-115817.jpg",
+      "car_name": "Honda Civic",
+      "price": 27000,
+      "details": "The Honda Civic is a sporty sedan known for its agile handling, comfortable ride, and fuel-efficient engines.",
+      "rating": 4.3,
+      "speed": "130 mph"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/F5zgpGy/IMG-20240221-115802.jpg",
+      "car_name": "Ford Mustang",
+      "price": 35000,
+      "details": "The Ford Mustang is an iconic American muscle car with powerful engines, classic design, and impressive performance.",
+      "rating": 4.7,
+      "speed": "155 mph"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/N6jbBrK/IMG-20240221-115741.jpg",
+      "car_name": "Chevrolet Camaro",
+      "price": 33000,
+      "details": "The Chevrolet Camaro is a modern muscle car offering impressive performance, advanced technology, and aggressive styling.",
+      "rating": 4.6,
+      "speed": "150 mph"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/XZ8N3wS/IMG-20240221-115727.jpg",
+      "car_name": "Tesla Model S",
+      "price": 80000,
+      "details": "The Tesla Model S is a luxury electric sedan with cutting-edge technology, long-range capability, and exhilarating acceleration.",
+      "rating": 4.9,
+      "speed": "200 mph"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/hVHFfT2/IMG-20240221-115715.jpg",
+      "car_name": "BMW 3 Series",
+      "price": 45000,
+      "details": "The BMW 3 Series is a premium compact sedan offering a blend of performance, luxury, and advanced technology.",
+      "rating": 4.8,
+      "speed": "155 mph"
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/S731V7g/IMG-20240221-115705.jpg",
+      "car_name": "Audi A4",
+      "price": 42000,
+      "details": "The Audi A4 is a sophisticated luxury sedan known for its refined interior, smooth ride, and advanced technology features.",
+      "rating": 4.7,
+      "speed": "140 mph"
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/kQ9tbxZ/IMG-20240221-115655.jpg",
+      "car_name": "Mercedes-Benz C-Class",
+      "price": 48000,
+      "details": "The Mercedes-Benz C-Class is an elegant compact luxury sedan with advanced technology, comfort features, and premium materials.",
+      "rating": 4.8,
+      "speed": "155 mph"
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/gTV2gbv/IMG-20240221-115646.jpg",
+      "car_name": "Lamborghini Huracan",
+      "price": 300000,
+      "details": "The Lamborghini Huracan is an exotic supercar with breathtaking performance, striking design, and cutting-edge technology.",
+      "rating": 4.9,
+      "speed": "202 mph"
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/wM0JGyY/IMG-20240221-115619.jpg",
+      "car_name": "Ferrari 488 GTB",
+      "price": 350000,
+      "details": "The Ferrari 488 GTB is a high-performance Italian sports car known for its speed, handling, and iconic design.",
+      "rating": 4.9,
+      "speed": "205 mph"
+    },
+    {
+      "id": 11,
+      "image": "https://i.ibb.co/FwQP7h3/IMG-20240221-115608.jpg",
+      "car_name": "Porsche 911",
+      "price": 120000,
+      "details": "The Porsche 911 is a legendary sports car with iconic design, impressive performance, and superb driving dynamics.",
+      "rating": 4.8,
+      "speed": "191 mph"
+    },
+    {
+      "id": 12,
+      "image": "https://i.ibb.co/4R9PG0P/IMG-20240220-161159.jpg",
+      "car_name": "Subaru WRX",
+      "price": 30000,
+      "details": "The Subaru WRX is a compact sedan with rally-inspired performance, all-wheel drive, and a sporty yet practical design.",
+      "rating": 4.4,
+      "speed": "155 mph"
+    },
+    {
+      "id": 13,
+      "image": "https://i.ibb.co/hVHFfT2/IMG-20240221-115715.jpg",
+      "car_name": "Jeep Wrangler",
+      "price": 35000,
+      "details": "The Jeep Wrangler is an iconic off-road SUV with rugged capability, open-air driving experience, and versatile customization options.",
+      "rating": 4.6,
+      "speed": "112 mph"
+    },
+    {
+      "id": 14,
+      "image": "https://i.ibb.co/gTV2gbv/IMG-20240221-115646.jpg",
+      "car_name": "Ford F-150",
+      "price": 40000,
+      "details": "The Ford F-150 is America's best-selling pickup truck with versatile capability, modern features, and strong performance.",
+      "rating": 4.7,
+      "speed": "120 mph"
+    },
+    {
+      "id": 15,
+      "image": "https://i.ibb.co/F5zgpGy/IMG-20240221-115802.jpg",
+      "car_name": "Chevrolet Silverado",
+      "price": 42000,
+      "details": "The Chevrolet Silverado is a robust full-size pickup truck offering strong towing and hauling capabilities, advanced technology, and rugged durability.",
+      "rating": 4.6,
+      "speed": "120 mph"
+    },
+    {
+      "id": 16,
+      "image": "https://i.ibb.co/hVHFfT2/IMG-20240221-115715.jpg",
+      "car_name": "Toyota Tacoma",
+      "price": 35000,
+      "details": "The Toyota Tacoma is a midsize pickup truck known for its off-road prowess, reliability, and versatile performance both on and off the road.",
+      "rating": 4.5,
+      "speed": "115 mph"
+    },
+    {
+      "id": 17,
+      "image": "https://i.ibb.co/XZ8N3wS/IMG-20240221-115727.jpg",
+      "car_name": "Nissan GT-R",
+      "price": 115000,
+      "details": "The Nissan GT-R is a Japanese supercar offering immense performance, advanced technology, and aggressive styling.",
+      "rating": 4.8,
+      "speed": "205 mph"
+    },
+    {
+      "id": 18,
+      "image": "https://i.ibb.co/N6jbBrK/IMG-20240221-115741.jpg",
+      "car_name": "Mazda MX-5 Miata",
+      "price": 28000,
+      "details": "The Mazda MX-5 Miata is an iconic convertible sports car with excellent handling, engaging driving dynamics, and timeless design.",
+      "rating": 4.6,
+      "speed": "135 mph"
+    },
+    {
+      "id": 19,
+      "image": "https://i.ibb.co/F5zgpGy/IMG-20240221-115802.jpg",
+      "car_name": "Volkswagen Golf GTI",
+      "price": 32000,
+      "details": "The Volkswagen Golf GTI is a hot hatchback offering a blend of practicality, performance, and fun-to-drive characteristics.",
+      "rating": 4.5,
+      "speed": "155 mph"
+    },
+    {
+      "id": 20,
+      "image": "https://i.ibb.co/kQ9tbxZ/IMG-20240221-115655.jpg",
+      "car_name": "Kia Telluride",
+      "price": 40000,
+      "details": "The Kia Telluride is a spacious midsize SUV with upscale interior, advanced technology, and comfortable ride quality.",
+      "rating": 4.7,
+      "speed": "130 mph"
+    }
+  ]

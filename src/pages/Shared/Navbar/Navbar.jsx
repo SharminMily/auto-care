@@ -1,7 +1,17 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import ButtonStyle from "../ButtonStyle/ButtonStyle";
+import { useContext } from "react";
+import { AuthContext } from "../../../provider/AuthProvider";
 
 const Navbar = () => {
+
+    const { user, logOut } = useContext(AuthContext);
+
+    const handleLogOut = () => {
+        logOut()
+            .then(() => { })
+            .catch(error => console.log(error));
+    }
 
     const NavOption = <>
         <li><NavLink to='/' >
@@ -16,7 +26,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar h-[13vh] w-full fixed z-10 bg-opacity-30 bg-black max-w-screen-xl text-white">
+        <div className="navbar h-[13vh] w-full bg-black max-w-screen-xl text-white">
             <div className="drawer">
                 <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content flex flex-col">
@@ -28,7 +38,9 @@ const Navbar = () => {
                             </label>
                         </div>
                         <div className="flex-1 px-2 mx-2">
-                            <img className="w-24 h-16" src="https://i.ibb.co/M1C0Mmx/IMG-20240220-155447-removebg-preview.png" alt="" />
+                            <Link to="/">
+                                <img className="w-24 h-16" src="https://i.ibb.co/M1C0Mmx/IMG-20240220-155447-removebg-preview.png" alt="" />
+                            </Link>
                         </div>
 
                         <div className="flex-none hidden lg:block">
@@ -39,13 +51,23 @@ const Navbar = () => {
                         </div>
 
                         <div className="mx-10">
-                            <><NavLink to='/logIn' >
-                                <ButtonStyle name="logIn"></ButtonStyle>
-                            </NavLink></>
-                            <><NavLink to='/logOut' >
-                                <ButtonStyle name="logOut"></ButtonStyle>
-                            </NavLink></>
-                            
+                            <NavLink to='/logIn'>
+                                {
+                                    user ? <>
+
+                                        <ButtonStyle onClick={handleLogOut} name="logOut"></ButtonStyle>
+
+                                    </> :
+                                        <>
+
+                                            <ButtonStyle name="logIn"></ButtonStyle>
+
+                                        </>
+                                }
+                            </NavLink>
+
+
+
                         </div>
 
                     </div>
